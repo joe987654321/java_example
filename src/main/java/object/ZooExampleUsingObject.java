@@ -17,7 +17,8 @@ public class ZooExampleUsingObject {
     public static void printZooDescription(Zoo zoo) {
         System.out.println("This zoo has " + zoo.numberOfAnimals + " animals.");
         System.out.println("Built in " + zoo.builtYear + ".");
-        System.out.println("The area of the zoo is " + zoo.height + " km x " + zoo.width + " km.");
+        System.out.print("The area of the zoo is " + zoo.height + " km x " + zoo.width + " km");
+        System.out.println(", which is equal to " + zoo.getArea() + " km^2");
         System.out.println("====================");
     }
 }

@@ -12,4 +12,8 @@ public class Zoo {
         width = w;
         height = h;
     }
+
+    public int getArea() {
+        return width*height;
+    }
 }

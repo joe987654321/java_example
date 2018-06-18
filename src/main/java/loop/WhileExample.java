@@ -13,7 +13,7 @@ public class WhileExample {
         input = input -1;
         while (input >= 0) {
             System.out.println(input);
-            input--;
+            input--; //input = input - 1;
         }
         System.out.println("================");
     }
