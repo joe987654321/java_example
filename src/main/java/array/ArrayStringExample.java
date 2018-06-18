@@ -17,5 +17,5 @@ public class ArrayStringExample {
         String s2 = new String(charArray);
         return s2;
     }
-
 }
+
